@@ -1,6 +1,5 @@
-FROM mysql:5.6
-MAINTAINER Doug Smith <info@laboratoryb.org>
-ENV build_date 2014-12-22
+FROM mysql:5.7
+MAINTAINER Andreas Krüger
 
 WORKDIR /
 RUN mkdir /sql
