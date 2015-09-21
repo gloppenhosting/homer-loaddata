@@ -1,5 +1,7 @@
-FROM mysql:5.6
+FROM mhart/alpine-node:4.1
 MAINTAINER Andreas Krüger
+
+RUN apk add --update mysql-client
 
 WORKDIR /
 RUN mkdir /sql
