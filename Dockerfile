@@ -5,6 +5,7 @@ RUN apk add --update mysql-client
 
 WORKDIR /
 RUN mkdir /sql
+
 COPY sql/ /sql
 COPY run.sh /run.sh
 
